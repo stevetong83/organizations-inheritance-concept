@@ -1,0 +1,2 @@
+class ChildOrganization < Organization 
+end
