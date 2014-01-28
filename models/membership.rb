@@ -8,6 +8,6 @@ class Membership
     @user = user
     @organization = organization
     @role = role
-    @organization.children_organizations?
+    @organization.children_organizations? @user, @role
   end
 end
